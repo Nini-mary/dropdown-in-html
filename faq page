@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - MyWebsite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?fit=crop&w=1920&h=1080&q=80') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff6347;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            color: #ffd700;
+            text-align: center;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            max-width: 800px;
+        }
+        .faq-section {
+            margin-top: 40px;
+        }
+        .faq-section h2 {
+            font-size: 2em;
+            color: #ff6347;
+            margin-bottom: 10px;
+        }
+        .faq-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .faq-section ul li {
+            font-size: 1.3em;
+            color: #ffd700;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Frequently Asked Questions</h1>
+    <p>Find answers to the most common questions about our services, policies, and more.
+        If you have any additional queries, feel free to contact us.</p>
+
+    <div class="faq-section">
+        <h2>General Questions</h2>
+        <ul>
+            <li><strong>Q:</strong> What services do you offer?<br><strong>A:</strong> We offer a wide range of services including web design, digital marketing, and consulting. Check out our Services page for more details.</li>
+            <li><strong>Q:</strong> How can I get in touch with customer support?<br><strong>A:</strong> You can reach our customer support team via the Contact Us page or by emailing support@mywebsite.com.</li>
+        </ul>
+    </div>
+
+    <div class="faq-section">
+        <h2>Payment and Billing</h2>
+        <ul>
+            <li><strong>Q:</strong> What payment methods do you accept?<br><strong>A:</strong> We accept all major credit cards, PayPal, and bank transfers.</li>
+            <li><strong>Q:</strong> Can I get a refund?<br><strong>A:</strong> Refunds are processed on a case-by-case basis. Please refer to our Refund Policy for more information.</li>
+        </ul>
+    </div>
+
+    <div class="faq-section">
+        <h2>Account Management</h2>
+        <ul>
+            <li><strong>Q:</strong> How do I create an account?<br><strong>A:</strong> Click on the Sign Up button at the top right corner and fill in the required information to create an account.</li>
+            <li><strong>Q:</strong> How do I reset my password?<br><strong>A:</strong> If you’ve forgotten your password, click on the Forgot Password link on the login page and follow the instructions to reset it.</li>
+        </ul>
+    </div>
+</body>
+</html>
