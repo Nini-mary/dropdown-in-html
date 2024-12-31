@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - MyWebsite</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ff6347;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.5em;
+            color: #ffd700;
+            text-align: center;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to MyWebsite</h1>
+    <p>We're thrilled to welcome you to our website! Dive into our comprehensive range of services, extensive resources, and expert solutions tailored to help you reach your objectives. Whether you're seeking innovative strategies, professional advice, or simply looking to expand your knowledge, we have everything you need to succeed.
+
+        Our website is designed to provide you with valuable insights and practical tools that can transform your vision into reality. Discover how our dedicated team of professionals can support you at every step of your journey, from initial consultation to achieving your long-term goals.
+        
+        Explore our detailed guides, informative blogs, and interactive webinars to stay updated with the latest industry trends and best practices. Take advantage of our personalized consulting services to get expert advice and customized solutions that align with your unique needs..</p>
+</body>
+</html>
