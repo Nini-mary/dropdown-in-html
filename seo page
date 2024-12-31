@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO - MyWebsite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: url('https://images.unsplash.com/photo-1551334787-21e6bd3ab135?fit=crop&w=1920&h=1080&q=80') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff6347;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            color: #ffd700;
+            text-align: center;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <h1>SEO Services</h1>
+    <p>Enhance your digital footprint with our top-notch SEO services. 
+        We specialize in elevating your search engine rankings, attracting a steady stream of organic traffic, 
+        and significantly boosting your online visibility.
+       By implementing advanced SEO strategies tailored to your business needs,
+         we ensure your website reaches the right audience at the right time. 
+       Our team of experts meticulously analyzes and optimizes your site to improve its performance,
+          making it easier for potential customers to find you.Whether you're aiming to outpace the competition or 
+          build brand authority, our SEO solutions are designed to deliver measurable results and sustainable growth. 
+       Trust us to transform your online presence and take your business to new heights.</p>
+</body>
+</html>
