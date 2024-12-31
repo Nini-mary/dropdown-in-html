@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .navbar .site-name {
+            font-size: 1.5em;
+        }
+        .navbar .nav-options {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .nav-options .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .navbar .nav-options .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.8);
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .navbar .nav-options .dropdown-content a {
+            color: #fff;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s;
+        }
+        .navbar .nav-options .dropdown-content a:hover {
+            background-color: #575757;
+        }
+        .navbar .nav-options .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .navbar .nav-options a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        .navbar .nav-options a:hover {
+            color: #ffdd57;
+        }
+        .content {
+            text-align: center;
+            margin-top: 150px;
+        }
+        .content h1 {
+            font-size: 3em;
+        }
+        .content p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .content a {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .content a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="site-name"><a href="home.html" style="color: #fff; text-decoration: none;">MyWebsite</a></div>
+        <div class="nav-options">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <div class="dropdown">
+                <a href="services.html">Services</a>
+                <div class="dropdown-content">
+                    <a href="web-design.html">Web Design</a>
+                    <a href="seo.html">SEO</a>
+                    <a href="marketing.html">Marketing</a>
+                    <a href="consulting.html">Consulting</a>
+                    <a href="development.html">Development</a>
+                    <a href="support.html">Support</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="resources.html">Resources</a>
+                <div class="dropdown-content">
+                    <a href="blogs.html">Blogs</a>
+                    <a href="ebooks.html">Ebooks</a>
+                    <a href="guides.html">Guides</a>
+                    <a href="webinars.html">Webinars</a>
+                </div>
+            </div>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Welcome to MyWebsite</h1>
+        <p>Explore our amazing content and discover what we have to offer. Here you can find everything you need to know about our services and how we can help you achieve your goals.</p>
+        <p>Our dedicated team is here to support your journey to success. From comprehensive resources to personalized consulting services, we have it all. Feel free to explore our offerings and get in touch with us for any assistance.</p>
+        <a href="get-started.html">Get Started</a>
+    </div>
+</body>
+</html>
