@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design - MyWebsite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: url('https://images.unsplash.com/photo-1519985176271-adb1088fa94c') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff6347;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            color: #ffd700;
+            text-align: center;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Web Design Services</h1>
+    <p>Our web design services are crafted to create visually striking and highly intuitive websites that captivate your audience and drive conversions.
+        Whether you're looking for a complete overhaul or subtle updates, our team possesses the expertise and creativity to turn your vision into a digital reality.
+        We prioritize user experience, ensuring that your website not only looks fantastic but also functions seamlessly.
+        From innovative designs to responsive layouts, we provide comprehensive solutions that make a lasting impact on your visitors
+        and help you achieve your business goals.
+        With our dedication to quality and attention to detail, we guarantee a website that stands out and delivers results.</p>
+</body>
+</html>
